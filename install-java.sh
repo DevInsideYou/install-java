@@ -9,4 +9,4 @@ wget -q https://raw.githubusercontent.com/DevInsideYou/install-jdk/master/instal
 sudo chmod +x install-jdk.sh && ./install-jdk.sh
 
 # remove yourself
-# rm $0
+rm $0
