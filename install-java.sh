@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # install jre
-wget -q https://raw.githubusercontent.com/DevInsideYou/install-jre/master/install-jre.sh
-sudo chmod +x install-jre.sh && ./install-jre.sh
+wget -q https://script.install.devinsideyou.com/jre
+sudo chmod +x jre && ./jre
 
 # install jdk
-wget -q https://raw.githubusercontent.com/DevInsideYou/install-jdk/master/install-jdk.sh
-sudo chmod +x install-jdk.sh && ./install-jdk.sh
+wget -q https://script.install.devinsideyou.com/jdk
+sudo chmod +x jdk && ./jdk
 
 # remove yourself
 rm $0
